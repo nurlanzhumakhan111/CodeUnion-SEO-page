@@ -14,6 +14,13 @@ body {
   position: relative;
 }
 
+body {
+  background-color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
 ul,
 ol,
 li,
@@ -30,9 +37,33 @@ h6 {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 button:focus,
 input:focus {
   outline: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1620px;
+  margin: 0 auto;
+}
+
+.main-button {
+  font-family: 'Roboto', sans-serif;
+  background: transparent;
+  color: inherit;
+  border: 1px solid #FFFFFF;
+  padding: 11px 58px;
+  font-size: 18px;
+  line-height: 1.15;
 }
