@@ -12,6 +12,7 @@
 
 .header {
     position: fixed;
+    z-index: 10;
     font-family: "SF-Pro", sans-serif;
     top: 50px;
     left: 50%;
@@ -36,15 +37,49 @@
         margin-left: 44px;
     }
 
-    &__nav-item-link {}
+}
 
-    &__popup {}
+
+// HEADER
+
+
+// PROMOTION
+
+.promotion {
+    position: relative;
+
+    &__title {}
+
+    &__subtitle {
+        text-transform: uppercase;
+        margin-bottom: 33px;
+    }
+
+    &__paragraph {
+        max-width: 690px;
+        margin-bottom: 58px;
+    }
+
+    &__button {}
+
+    &__next-wrapper {
+        text-align: center;
+    }
+
+    &__next {
+        position: absolute;
+        bottom: 122px;
+        background: transparent;
+        border-radius: 50%;
+        padding: 14px 15px;
+        border: 1px solid #FFFFFF;
+    }
 }
 
 
 
+// PROMOTION
 
-// HEADER
 
 //-----------------------------------------------------------------------------------------------------------
 //
